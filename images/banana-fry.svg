@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fff4d6"/>
+  <!-- plate -->
+  <ellipse cx="200" cy="170" rx="180" ry="105" fill="#ffffff"/>
+  <ellipse cx="200" cy="170" rx="180" ry="105" fill="none" stroke="#ead9c0" stroke-width="6"/>
+  <ellipse cx="200" cy="172" rx="140" ry="78" fill="#fdf1dd"/>
+  <!-- fry pieces: a pile of golden banana fritters -->
+  <g id="p">
+    <path d="M70 160 Q110 105 175 128 Q150 190 95 195 Q60 190 70 160Z" fill="#e8a33a"/>
+    <path d="M82 162 Q112 122 165 135 Q145 180 98 184 Q76 180 82 162Z" fill="#f6c453"/>
+    <path d="M95 160 Q115 140 150 145" fill="none" stroke="#fbe08a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(120 -35)">
+    <path d="M70 160 Q110 105 175 128 Q150 190 95 195 Q60 190 70 160Z" fill="#dc9a30"/>
+    <path d="M82 162 Q112 122 165 135 Q145 180 98 184 Q76 180 82 162Z" fill="#f2bb48"/>
+    <path d="M95 160 Q115 140 150 145" fill="none" stroke="#fbe08a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(115 40)">
+    <path d="M70 160 Q110 105 175 128 Q150 190 95 195 Q60 190 70 160Z" fill="#e8a33a"/>
+    <path d="M82 162 Q112 122 165 135 Q145 180 98 184 Q76 180 82 162Z" fill="#f6c453"/>
+    <path d="M95 160 Q115 140 150 145" fill="none" stroke="#fbe08a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(35 75)">
+    <path d="M70 160 Q110 105 175 128 Q150 190 95 195 Q60 190 70 160Z" fill="#dc9a30"/>
+    <path d="M82 162 Q112 122 165 135 Q145 180 98 184 Q76 180 82 162Z" fill="#f2bb48"/>
+  </g>
+  <!-- chilli powder specks -->
+  <g fill="#c62828" opacity=".75"><circle cx="150" cy="140" r="3"/><circle cx="240" cy="110" r="3"/><circle cx="260" cy="190" r="3"/><circle cx="120" cy="215" r="3"/><circle cx="215" cy="160" r="3"/></g>
+  <!-- curry leaves -->
+  <g fill="#2e7d32"><ellipse cx="300" cy="135" rx="14" ry="6" transform="rotate(-30 300 135)"/><ellipse cx="90" cy="130" rx="14" ry="6" transform="rotate(30 90 130)"/></g>
+  <!-- sparkle -->
+  <g fill="#fff" opacity=".9"><path d="M310 60 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4z"/><path d="M80 50 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/></g>
+</svg>
