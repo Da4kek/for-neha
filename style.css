@@ -60,7 +60,7 @@ body {
 
 /* message */
 .sorry { font-size: clamp(1.5rem, 6vw, 2.1rem); font-weight: 700; color: var(--deep); animation: pop .8s both; }
-.sorry.sub { font-size: 1.1rem; color: var(--ink); opacity: 0; animation: pop .8s 1s both; }
+.sorry.sub { font-size: 1.1rem; color: var(--ink); animation: pop .8s 1s both; }
 .consent { margin-top: 1.5rem; }
 .typed { font-size: 1.4rem; font-weight: 700; min-height: 2.2em; }
 .typed::after { content: "▍"; animation: blink .8s infinite; color: var(--pink); }
