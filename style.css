@@ -53,8 +53,8 @@ body {
   background: #ff5fa2; clip-path: polygon(0 0, 100% 0, 50% 100%);
   border-radius: 12px 12px 0 0;
 }
-.env-heart { position: absolute; top: 48px; left: 50%; transform: translateX(-50%); font-size: 2.2rem; animation: beat 1.1s infinite; }
-@keyframes beat { 50% { transform: translateX(-50%) scale(1.25); } }
+.env-seal { position: absolute; top: 56px; left: 50%; width: 30px; height: 30px; margin-left: -15px; border-radius: 50%; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,.15); animation: beat 1.4s infinite; }
+@keyframes beat { 50% { transform: scale(1.15); } }
 .hint { animation: blink 1.6s infinite; font-weight: 700; }
 @keyframes blink { 50% { opacity: .35; } }
 
@@ -85,13 +85,6 @@ body {
 .food figure:nth-child(2) { animation-delay: .25s; }
 .food img { width: 100%; height: auto; display: block; border-radius: 14px; }
 .food figcaption { margin-top: .5rem; font-weight: 700; font-size: 1.2rem; color: var(--deep); }
-
-/* floating hearts + confetti */
-.floaties { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
-.floaty { position: absolute; bottom: -40px; animation: rise linear forwards; opacity: .7; }
-@keyframes rise { to { transform: translateY(-110vh) rotate(40deg); opacity: 0; } }
-.confetti { position: fixed; top: -20px; z-index: 5; pointer-events: none; animation: fall linear forwards; }
-@keyframes fall { to { transform: translateY(110vh) rotate(540deg); } }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
