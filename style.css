@@ -42,7 +42,7 @@ body {
 /* landing */
 #s-landing h1 { font-size: clamp(3.4rem, 15vw, 5.5rem); }
 .envelope {
-  --e: clamp(1px, .85vw, 1.6px);
+  --e: clamp(.8px, .28vw, 1.1px);
   position: relative; width: calc(var(--e) * 280); height: calc(var(--e) * 196); border: 0; background: none;
   cursor: pointer; margin: 1rem 0; animation: bob 2s ease-in-out infinite;
 }
